@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopping-header > h2 {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.shopping-item {
+    padding: 3.2rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.responsive {
+    max-width: 50%;
+    width: 10rem;
+    height: auto;
+}
+
+.item-entry {
+    width: 30rem;
+}
+.item-name {
+    text-transform: uppercase;
+    color:#666666;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.item-description {
+    text-transform: lowercase;
+    font-size: 1.6rem;
+    display: block;
+}
+.quantity {
+    box-shadow:inset 0rem 0.1rem 0rem 0rem #ffffff;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #dcdcdc;
+    cursor: pointer;
+    color:#666666;
+    font-size:1.6rem;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+    text-shadow: 0rem 0.1rem 0rem #ffffff;
+    }
+.quantity:active {
+    position: relative;
+    top: 0.1rem;
+}
+.quantity-ammount {
+    color:#666666;
+    font-size:1.6rem;
+    font-weight: bold;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+.value {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    min-width: 10rem;
+}
+.shopping-footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.shopping-footer > span {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.totalPrice {
+    display: block;
+}
